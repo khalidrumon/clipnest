@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: clipnest
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
